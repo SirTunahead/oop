@@ -2,6 +2,16 @@
 #include "include/ExceptionHandler.hpp"
 #include <cmath>
 
+void index0bis5(int index){
+    try{
+        if(index > 5){
+            throw 300;
+        }
+    }catch (int x){
+        std::cout << "index out of range!" << std::endl;
+    }
+}
+
 int main(){
     int nr;
     printf("Put in a number:\n");
@@ -27,6 +37,7 @@ int main(){
     std::cout << "Berechnung von logarithm: " << logarithm << std::endl;
 
 
+    index0bis5(nr);
     return 0;
 }
 
