@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = Teilaufgabe3
+APPNAME = aufgabe6Teil3
 EXT = .cpp
 SRCDIR = src
 OBJDIR = obj
