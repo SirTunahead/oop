@@ -42,10 +42,10 @@ int main(){
 
     std::cout << add(2.5,3,4) << std::endl;
 
- 	std::string string1,string2,string3;
- 	string1 = "string1";
- 	string2 = "string2";
- 	string3 = "string3";
+ 	
+ 	std::string string1 = "string1";
+ 	std::string string2 = "string2";
+ 	std::string string3 = "string3";
 
  	std::cout << add(string1,string2,string3) << std::endl;
 
