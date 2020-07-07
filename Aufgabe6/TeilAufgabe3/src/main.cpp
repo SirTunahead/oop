@@ -28,5 +28,19 @@ int main(){
        printf("copy_of_map is NOT empty!\n");
     }
 
+    std::cout << "An der Stelle 1 ist: " << test[1] << std::endl; 
+
+    copyTest.erase(1);
+    std::cout << "An der Stelle 1 ist: \n" << copyTest[1] << std::endl;
+
+    printf("Iterator for test\n");
+    for(auto i = test.begin(); i != test.end(); i++ ){
+        std::cout << i->first << ": "  << i->second << std::endl;
+    }
+    printf("\n");
+    printf("Iterator for copyTest\n");
+     for(auto i = copyTest.begin(); i != copyTest.end(); i++ ){
+        std::cout << i->first << ": "  << i->second << std::endl;
+    }      
     return 0;
 }
