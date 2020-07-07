@@ -21,6 +21,7 @@ int main(){
     int logarithm = log(nr);
     std::cout << "Berechnung von logarithm: " << logarithm << std::endl;
 
+    
 
 
     return 0;

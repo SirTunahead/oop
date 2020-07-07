@@ -18,7 +18,6 @@ template<typename T, typename ... Args>
         }
     }
 
-
 int main(){
 
     Maybe<int> Test1;
@@ -40,7 +39,7 @@ int main(){
     Test1 = Test1/Test2;
     std::cout << Test1.theValue() << std::endl;
 
-    std::cout << add(2.5,3,4) << std::endl;
+    std::cout << "Add ausgabe" << add(2.5,3,4,5) << std::endl;
 
  	
  	std::string string1 = "string1";
