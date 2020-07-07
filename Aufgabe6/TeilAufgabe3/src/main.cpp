@@ -3,8 +3,7 @@
 
 int main(){
     std::map <int, char> test;
-
-
+    
     if(test.empty() == true){
         printf("map is empty!\n");
         
