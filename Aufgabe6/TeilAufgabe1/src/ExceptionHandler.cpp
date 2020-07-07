@@ -20,3 +20,13 @@ void ExceptionHandler::throwException(double nr){
        std::cout << "Input cannot be greater than 100!\nERROR CODE: " << x << std::endl;
     }
 }
+
+ void ExceptionHandler::throwLOGException(int log){
+     try{
+         if(log <= 0){
+             throw 200;
+         }
+     }catch(int x){
+         std::cout << "Input cannot be 0 or less!!\nERROR CODE:" << x << std::endl;
+     }
+ }

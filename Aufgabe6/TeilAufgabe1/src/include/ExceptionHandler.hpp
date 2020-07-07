@@ -6,5 +6,6 @@
         public:
             void throwException(int nr);
             void throwException(double nr);
+            void throwLOGException(int log);
     };
 #endif

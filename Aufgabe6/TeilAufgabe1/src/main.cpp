@@ -18,10 +18,13 @@ int main(){
     */
 
     //todo logarithm Exceptionhandling machen!
+
+    printf("Put in a number for log:\n");
+    std::cin >> nr;
+
+    except.throwLOGException(nr);
     int logarithm = log(nr);
     std::cout << "Berechnung von logarithm: " << logarithm << std::endl;
-
-    
 
 
     return 0;
