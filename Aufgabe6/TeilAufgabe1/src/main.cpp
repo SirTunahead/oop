@@ -1,6 +1,7 @@
 #include <iostream>
 #include "include/ExceptionHandler.hpp"
 #include <cmath>
+#include <vector>
 
 void index0bis5(int index){
     try{
@@ -37,7 +38,7 @@ int main(){
     std::cout << "Berechnung von logarithm: " << logarithm << std::endl;
 
 
-    index0bis5(nr);
+    except.throwExceptionIndex(10);
     return 0;
 }
 

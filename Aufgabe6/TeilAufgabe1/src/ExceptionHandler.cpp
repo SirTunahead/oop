@@ -30,3 +30,17 @@ void ExceptionHandler::throwException(double nr){
          std::cout << "Input cannot be 0 or less!!\nERROR CODE:" << x << std::endl;
      }
  }
+
+ void ExceptionHandler::throwExceptionIndex(int in){
+     try{
+         if(0<=in && in <= 5){
+            std::cout << "is in boundries!" << std::endl;
+         }
+         else{
+             throw 300;
+         }
+     }catch( int x){
+         std::cout << "INDEX NOT IN BOUNDS! Errorcode: " << x << std::endl; 
+     }
+
+ }
