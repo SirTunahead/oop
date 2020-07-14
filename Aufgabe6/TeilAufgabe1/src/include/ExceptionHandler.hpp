@@ -8,5 +8,6 @@
             void throwException(double nr);
             void throwLOGException(int log);
             void throwExceptionIndex(int in);
+            void throwExceptionVector();
     };
 #endif

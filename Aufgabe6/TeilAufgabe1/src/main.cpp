@@ -14,6 +14,7 @@ void index0bis5(int index){
 }
 
 int main(){
+
     int nr;
     printf("Put in a number:\n");
     std::cin >> nr;
@@ -39,6 +40,9 @@ int main(){
 
 
     except.throwExceptionIndex(10);
+    std::vector<int> myvector;
+    except.throwExceptionVector();
+
     return 0;
 }
 

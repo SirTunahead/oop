@@ -1,5 +1,6 @@
 #include "include/ExceptionHandler.hpp"
 #include <iostream>
+#include <vector>
 
  void ExceptionHandler::throwException(int nr){
     try{
@@ -43,4 +44,15 @@ void ExceptionHandler::throwException(double nr){
          std::cout << "INDEX NOT IN BOUNDS! Errorcode: " << x << std::endl; 
      }
 
+ }
+
+ void ExceptionHandler::throwExceptionVector(){
+     
+     try{
+        std::vector<int> myvector;
+        myvector.resize(myvector.max_size() + 1);
+        
+     }catch(const std::length_error& e){
+         std::cout << "legnth Error!" << e.what() << std::endl; 
+     }
  }

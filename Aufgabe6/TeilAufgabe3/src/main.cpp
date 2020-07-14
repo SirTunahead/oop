@@ -27,7 +27,7 @@ int main(){
        printf("copy_of_map is NOT empty!\n");
     }
 
-    std::cout << "An der Stelle 1 ist: " << test[1] << std::endl; 
+    std::cout << "An der Stelle 1 ist: " << test.at(1) << std::endl; 
 
     copyTest.erase(1);
     std::cout << "An der Stelle 1 ist: \n" << copyTest[1] << std::endl;
